@@ -52,7 +52,7 @@ class BinarySearchTree(Generic[T]):
 
 
 # Ejemplo de uso
-sentence = "El arbol esta bonito"
+sentence = input("Ingrese la palabra: ")
 bst = BinarySearchTree()
 bst.insert(sentence)
 sorted_sentence = bst.inorder_traversal()
